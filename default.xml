@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yuhwan" fetch="https://github.com/yuhwan97" />
+  <remote name="yocto"  fetch="https://git.yoctoproject.org" />
+
+
+  <default sync-j="2" revision="dunfell" />
+
+  <project name="meta-raspberrypi" path="meta-raspberrypi" />
+  <project name="poky" path="poky" />
+
+</manifest>
